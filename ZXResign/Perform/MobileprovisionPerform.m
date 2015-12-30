@@ -11,6 +11,14 @@
 @implementation MobileprovisionPerform
 +(void)creatEntitlementsPlistByMobileprovisionPath:(NSString *)mobileprovisionPath WorkPath:(NSString *)workPath
 {
+    if (workPath.length <= 0) {
+        [ZXLog WarningAlertbyMessage:@"iPA Path error"];
+        return;
+    }
+    if (mobileprovisionPath.length <= 0) {
+        [ZXLog WarningAlertbyMessage:@"mobileprovision file Path error"];
+        return;
+    }
     if ([OtherModel checkVersion] == NO) {
         return;
     }
