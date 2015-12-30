@@ -1,0 +1,2 @@
+# ZXResign
+batch resign iPA
