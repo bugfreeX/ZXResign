@@ -1,0 +1,28 @@
+//
+//  ZXResign.pch
+//  ZXResign
+//
+//  Created by FreeGeek on 15/12/18.
+//  Copyright © 2015年 ZhongXi. All rights reserved.
+//
+
+#ifndef ZXResign_pch
+#define ZXResign_pch
+#import "SharedData.h"
+#import "OtherModel.h"
+#import "ZXTask.h"
+#import "ZXLog.h"
+#define UserDefaults [NSUserDefaults standardUserDefaults]
+#define FileManager  [NSFileManager defaultManager]
+#define IPA_PATH @"IPAPATH"
+#define Mobileprovision_PATH @"MobileprovisionPATH"
+#define appDelegate ((AppDelegate *)[[NSApplication sharedApplication] delegate])
+
+#define Launch_security @"/usr/bin/security"
+#define Launch_unzip @"/usr/bin/unzip"
+#define Launch_codesign @"/usr/bin/codesign"
+#define Launch_zip @"/usr/bin/zip"
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* ZXResign_pch */

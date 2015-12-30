@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "e6992223-180e-8545-ae77-caf44efd1bfb++3600",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "e6992223-180e-8545-ae77-caf44efd1bfb++3600" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "e6992223-180e-8545-ae77-caf44efd1bfb++3600" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "316B6C95-1EA3-4745-AB23-EDB43DB2D43D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "e6992223-180e-8545-ae77-caf44efd1bfb++3600" : "%E7%AD%BE%E5%90%8D%E5%B7%A5%E5%85%B7\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZXResign",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZXResign\/ZXResign.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.15.210:8443\/svn\/sjzsIOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "e6992223-180e-8545-ae77-caf44efd1bfb++3600"
+    }
+  ]
+}

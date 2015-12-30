@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C6E01D11C23B0E500B1D4E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E01D01C23B0E500B1D4E3 /* AppDelegate.m */; };
+		0C6E01D41C23B0E500B1D4E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E01D31C23B0E500B1D4E3 /* main.m */; };
+		0C6E01D61C23B0E500B1D4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C6E01D51C23B0E500B1D4E3 /* Assets.xcassets */; };
+		0C6E01D91C23B0E500B1D4E3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C6E01D71C23B0E500B1D4E3 /* MainMenu.xib */; };
+		0CB682FD1C2E3927000E235C /* MobileprovisionPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB682FC1C2E3927000E235C /* MobileprovisionPerform.m */; };
+		0CB683001C2E450E000E235C /* OtherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB682FF1C2E450E000E235C /* OtherModel.m */; };
+		0CB683041C2E4BC6000E235C /* SharedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB683031C2E4BC6000E235C /* SharedData.m */; };
+		0CB683081C2E4BED000E235C /* GCDTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB683071C2E4BED000E235C /* GCDTask.m */; };
+		0CB6830B1C2E612A000E235C /* ZXTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6830A1C2E612A000E235C /* ZXTask.m */; };
+		0CB6830E1C2E61EC000E235C /* KeyChainPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6830D1C2E61EC000E235C /* KeyChainPerform.m */; };
+		0CB683111C2E65FB000E235C /* ZXLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB683101C2E65FB000E235C /* ZXLog.m */; };
+		0CB683171C2E83F6000E235C /* NSObject+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB683161C2E83F6000E235C /* NSObject+Log.m */; };
+		0CB6831C1C2E89C5000E235C /* UnZipPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6831B1C2E89C5000E235C /* UnZipPerform.m */; };
+		0CB683221C30CEE3000E235C /* ParseAppFilePerform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB683211C30CEE3000E235C /* ParseAppFilePerform.m */; };
+		0CB683251C30D490000E235C /* AppSignPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB683241C30D490000E235C /* AppSignPerform.m */; };
+		0CB683281C30E3B6000E235C /* AppValidationPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB683271C30E3B6000E235C /* AppValidationPerform.m */; };
+		0CB6832B1C30E636000E235C /* ZipPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6832A1C30E636000E235C /* ZipPerform.m */; };
+		0CB6832E1C313E90000E235C /* FrameworkSignPerform.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB6832D1C313E90000E235C /* FrameworkSignPerform.m */; };
+		0CB683301C327794000E235C /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0CB6832F1C327794000E235C /* icon.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C6E01CC1C23B0E400B1D4E3 /* ZXResign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXResign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6E01CF1C23B0E500B1D4E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0C6E01D01C23B0E500B1D4E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0C6E01D31C23B0E500B1D4E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C6E01D51C23B0E500B1D4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C6E01D81C23B0E500B1D4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0C6E01DA1C23B0E500B1D4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0C6E01E31C23D8A300B1D4E3 /* ZXResign.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXResign.pch; sourceTree = "<group>"; };
+		0CB682FB1C2E3927000E235C /* MobileprovisionPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MobileprovisionPerform.h; path = Perform/MobileprovisionPerform.h; sourceTree = "<group>"; };
+		0CB682FC1C2E3927000E235C /* MobileprovisionPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MobileprovisionPerform.m; path = Perform/MobileprovisionPerform.m; sourceTree = "<group>"; };
+		0CB682FE1C2E450E000E235C /* OtherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OtherModel.h; path = Model/OtherModel.h; sourceTree = "<group>"; };
+		0CB682FF1C2E450E000E235C /* OtherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OtherModel.m; path = Model/OtherModel.m; sourceTree = "<group>"; };
+		0CB683021C2E4BC6000E235C /* SharedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SharedData.h; path = Model/SharedData.h; sourceTree = "<group>"; };
+		0CB683031C2E4BC6000E235C /* SharedData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SharedData.m; path = Model/SharedData.m; sourceTree = "<group>"; };
+		0CB683061C2E4BED000E235C /* GCDTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTask.h; sourceTree = "<group>"; };
+		0CB683071C2E4BED000E235C /* GCDTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTask.m; sourceTree = "<group>"; };
+		0CB683091C2E612A000E235C /* ZXTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXTask.h; sourceTree = "<group>"; };
+		0CB6830A1C2E612A000E235C /* ZXTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXTask.m; sourceTree = "<group>"; };
+		0CB6830C1C2E61EC000E235C /* KeyChainPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeyChainPerform.h; path = Perform/KeyChainPerform.h; sourceTree = "<group>"; };
+		0CB6830D1C2E61EC000E235C /* KeyChainPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeyChainPerform.m; path = Perform/KeyChainPerform.m; sourceTree = "<group>"; };
+		0CB6830F1C2E65FB000E235C /* ZXLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXLog.h; sourceTree = "<group>"; };
+		0CB683101C2E65FB000E235C /* ZXLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXLog.m; sourceTree = "<group>"; };
+		0CB683151C2E83F6000E235C /* NSObject+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Log.h"; sourceTree = "<group>"; };
+		0CB683161C2E83F6000E235C /* NSObject+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Log.m"; sourceTree = "<group>"; };
+		0CB6831A1C2E89C5000E235C /* UnZipPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UnZipPerform.h; path = Perform/UnZipPerform.h; sourceTree = "<group>"; };
+		0CB6831B1C2E89C5000E235C /* UnZipPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UnZipPerform.m; path = Perform/UnZipPerform.m; sourceTree = "<group>"; };
+		0CB683201C30CEE3000E235C /* ParseAppFilePerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParseAppFilePerform.h; path = Perform/ParseAppFilePerform.h; sourceTree = "<group>"; };
+		0CB683211C30CEE3000E235C /* ParseAppFilePerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParseAppFilePerform.m; path = Perform/ParseAppFilePerform.m; sourceTree = "<group>"; };
+		0CB683231C30D490000E235C /* AppSignPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppSignPerform.h; path = Perform/AppSignPerform.h; sourceTree = "<group>"; };
+		0CB683241C30D490000E235C /* AppSignPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppSignPerform.m; path = Perform/AppSignPerform.m; sourceTree = "<group>"; };
+		0CB683261C30E3B6000E235C /* AppValidationPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppValidationPerform.h; path = Perform/AppValidationPerform.h; sourceTree = "<group>"; };
+		0CB683271C30E3B6000E235C /* AppValidationPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppValidationPerform.m; path = Perform/AppValidationPerform.m; sourceTree = "<group>"; };
+		0CB683291C30E636000E235C /* ZipPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZipPerform.h; path = Perform/ZipPerform.h; sourceTree = "<group>"; };
+		0CB6832A1C30E636000E235C /* ZipPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZipPerform.m; path = Perform/ZipPerform.m; sourceTree = "<group>"; };
+		0CB6832C1C313E90000E235C /* FrameworkSignPerform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrameworkSignPerform.h; path = Perform/FrameworkSignPerform.h; sourceTree = "<group>"; };
+		0CB6832D1C313E90000E235C /* FrameworkSignPerform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrameworkSignPerform.m; path = Perform/FrameworkSignPerform.m; sourceTree = "<group>"; };
+		0CB6832F1C327794000E235C /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C6E01C91C23B0E400B1D4E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C6E01C31C23B0E400B1D4E3 = {
+			isa = PBXGroup;
+			children = (
+				0C6E01CE1C23B0E400B1D4E3 /* ZXResign */,
+				0C6E01CD1C23B0E400B1D4E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C6E01CD1C23B0E400B1D4E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C6E01CC1C23B0E400B1D4E3 /* ZXResign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C6E01CE1C23B0E400B1D4E3 /* ZXResign */ = {
+			isa = PBXGroup;
+			children = (
+				0CB683051C2E4BED000E235C /* Task */,
+				0CB683011C2E4514000E235C /* Model */,
+				0CB682FA1C2E38E1000E235C /* Perform */,
+				0C6E01CF1C23B0E500B1D4E3 /* AppDelegate.h */,
+				0C6E01D01C23B0E500B1D4E3 /* AppDelegate.m */,
+				0CB6830F1C2E65FB000E235C /* ZXLog.h */,
+				0CB683101C2E65FB000E235C /* ZXLog.m */,
+				0CB683151C2E83F6000E235C /* NSObject+Log.h */,
+				0CB683161C2E83F6000E235C /* NSObject+Log.m */,
+				0C6E01E31C23D8A300B1D4E3 /* ZXResign.pch */,
+				0C6E01D51C23B0E500B1D4E3 /* Assets.xcassets */,
+				0CB6832F1C327794000E235C /* icon.icns */,
+				0C6E01D71C23B0E500B1D4E3 /* MainMenu.xib */,
+				0C6E01DA1C23B0E500B1D4E3 /* Info.plist */,
+				0C6E01D21C23B0E500B1D4E3 /* Supporting Files */,
+			);
+			path = ZXResign;
+			sourceTree = "<group>";
+		};
+		0C6E01D21C23B0E500B1D4E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C6E01D31C23B0E500B1D4E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CB682FA1C2E38E1000E235C /* Perform */ = {
+			isa = PBXGroup;
+			children = (
+				0CB682FB1C2E3927000E235C /* MobileprovisionPerform.h */,
+				0CB682FC1C2E3927000E235C /* MobileprovisionPerform.m */,
+				0CB6830C1C2E61EC000E235C /* KeyChainPerform.h */,
+				0CB6830D1C2E61EC000E235C /* KeyChainPerform.m */,
+				0CB6831A1C2E89C5000E235C /* UnZipPerform.h */,
+				0CB6831B1C2E89C5000E235C /* UnZipPerform.m */,
+				0CB683201C30CEE3000E235C /* ParseAppFilePerform.h */,
+				0CB683211C30CEE3000E235C /* ParseAppFilePerform.m */,
+				0CB6832C1C313E90000E235C /* FrameworkSignPerform.h */,
+				0CB6832D1C313E90000E235C /* FrameworkSignPerform.m */,
+				0CB683231C30D490000E235C /* AppSignPerform.h */,
+				0CB683241C30D490000E235C /* AppSignPerform.m */,
+				0CB683261C30E3B6000E235C /* AppValidationPerform.h */,
+				0CB683271C30E3B6000E235C /* AppValidationPerform.m */,
+				0CB683291C30E636000E235C /* ZipPerform.h */,
+				0CB6832A1C30E636000E235C /* ZipPerform.m */,
+			);
+			name = Perform;
+			sourceTree = "<group>";
+		};
+		0CB683011C2E4514000E235C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CB683021C2E4BC6000E235C /* SharedData.h */,
+				0CB683031C2E4BC6000E235C /* SharedData.m */,
+				0CB682FE1C2E450E000E235C /* OtherModel.h */,
+				0CB682FF1C2E450E000E235C /* OtherModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0CB683051C2E4BED000E235C /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				0CB683061C2E4BED000E235C /* GCDTask.h */,
+				0CB683071C2E4BED000E235C /* GCDTask.m */,
+				0CB683091C2E612A000E235C /* ZXTask.h */,
+				0CB6830A1C2E612A000E235C /* ZXTask.m */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C6E01CB1C23B0E400B1D4E3 /* ZXResign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6E01DD1C23B0E500B1D4E3 /* Build configuration list for PBXNativeTarget "ZXResign" */;
+			buildPhases = (
+				0C6E01C81C23B0E400B1D4E3 /* Sources */,
+				0C6E01C91C23B0E400B1D4E3 /* Frameworks */,
+				0C6E01CA1C23B0E400B1D4E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXResign;
+			productName = ZXResign;
+			productReference = 0C6E01CC1C23B0E400B1D4E3 /* ZXResign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C6E01C41C23B0E400B1D4E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ZhongXi;
+				TargetAttributes = {
+					0C6E01CB1C23B0E400B1D4E3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 0C6E01C71C23B0E400B1D4E3 /* Build configuration list for PBXProject "ZXResign" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C6E01C31C23B0E400B1D4E3;
+			productRefGroup = 0C6E01CD1C23B0E400B1D4E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C6E01CB1C23B0E400B1D4E3 /* ZXResign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C6E01CA1C23B0E400B1D4E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C6E01D61C23B0E500B1D4E3 /* Assets.xcassets in Resources */,
+				0C6E01D91C23B0E500B1D4E3 /* MainMenu.xib in Resources */,
+				0CB683301C327794000E235C /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C6E01C81C23B0E400B1D4E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CB683281C30E3B6000E235C /* AppValidationPerform.m in Sources */,
+				0C6E01D41C23B0E500B1D4E3 /* main.m in Sources */,
+				0C6E01D11C23B0E500B1D4E3 /* AppDelegate.m in Sources */,
+				0CB683171C2E83F6000E235C /* NSObject+Log.m in Sources */,
+				0CB6832B1C30E636000E235C /* ZipPerform.m in Sources */,
+				0CB683251C30D490000E235C /* AppSignPerform.m in Sources */,
+				0CB683041C2E4BC6000E235C /* SharedData.m in Sources */,
+				0CB683111C2E65FB000E235C /* ZXLog.m in Sources */,
+				0CB6830E1C2E61EC000E235C /* KeyChainPerform.m in Sources */,
+				0CB6830B1C2E612A000E235C /* ZXTask.m in Sources */,
+				0CB6831C1C2E89C5000E235C /* UnZipPerform.m in Sources */,
+				0CB6832E1C313E90000E235C /* FrameworkSignPerform.m in Sources */,
+				0CB683081C2E4BED000E235C /* GCDTask.m in Sources */,
+				0CB682FD1C2E3927000E235C /* MobileprovisionPerform.m in Sources */,
+				0CB683001C2E450E000E235C /* OtherModel.m in Sources */,
+				0CB683221C30CEE3000E235C /* ParseAppFilePerform.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C6E01D71C23B0E500B1D4E3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C6E01D81C23B0E500B1D4E3 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0C6E01DB1C23B0E500B1D4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0C6E01DC1C23B0E500B1D4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0C6E01DE1C23B0E500B1D4E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = ZXResign/ZXResign.pch;
+				INFOPLIST_FILE = ZXResign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZXResign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0C6E01DF1C23B0E500B1D4E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PREFIX_HEADER = ZXResign/ZXResign.pch;
+				INFOPLIST_FILE = ZXResign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ZXResign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C6E01C71C23B0E400B1D4E3 /* Build configuration list for PBXProject "ZXResign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6E01DB1C23B0E500B1D4E3 /* Debug */,
+				0C6E01DC1C23B0E500B1D4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C6E01DD1C23B0E500B1D4E3 /* Build configuration list for PBXNativeTarget "ZXResign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C6E01DE1C23B0E500B1D4E3 /* Debug */,
+				0C6E01DF1C23B0E500B1D4E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C6E01C41C23B0E400B1D4E3 /* Project object */;
+}
