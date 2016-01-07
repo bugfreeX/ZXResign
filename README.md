@@ -15,4 +15,4 @@ choose mobileprovision file path
 选择描述文件路径
 
 
-![ZXResign](https://github.com/XieXieZhongxi/ZXResign/blob/master/screenshot/ZXResign.png)
+![ZXResign](https://github.com/XieXieZhongxi/ZXResign/blob/master/screenshots/ZXResign.png)
