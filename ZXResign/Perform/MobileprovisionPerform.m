@@ -128,7 +128,7 @@
 
 +(NSDictionary*) getMobileProvisionbyPath:(NSString *)path
 {
-    static NSDictionary* mobileProvision = nil;
+    NSDictionary* mobileProvision = nil;
     if (!mobileProvision) {
         NSString *provisioningPath = path;
         if (!provisioningPath) {
